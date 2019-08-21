@@ -22,13 +22,4 @@ for kind in word_format:
     else:
         word += random.choice(VOWELS)
 print(word)
-read_file = open('words_alpha.txt', 'r')
-# if word in read_file:
-#     print("This is a dictionary word")
-# else:
-#     print("this is not a dictionary word")
-for each_line in read_file:
-    if each_line.rstrip() == word:
-        print("\n*** Match ***\n")
 
-read_file.close()
