@@ -45,6 +45,6 @@ print(type(numbers[0]))
 # TODO: use a list comprehension to create a list of only the numbers that are
 # greater than 9 from the numbers (not strings) you just created
 
-#number for number in numbers if number > 9
+# number for number in numbers if number > 9
 larger_than_nine_numbers = [number for number in almost_numbers if int(number) > 9]
 print(larger_than_nine_numbers)

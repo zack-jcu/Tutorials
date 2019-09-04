@@ -14,6 +14,4 @@ def lines():
         number = random.randint(1, 45)
 
 
-
-
 main()
