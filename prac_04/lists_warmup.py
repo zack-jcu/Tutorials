@@ -16,4 +16,3 @@ numbers[0] = 10
 numbers[-1] = 1
 numbers[2:len(numbers)]
 9 in numbers
-
