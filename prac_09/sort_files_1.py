@@ -8,10 +8,14 @@ def main():
             continue
 
         extension = filename.split('.')[-1]
-        if os.path.isdir(extension):
-            pass
-        else:
+        if not os.path.isdir(extension):
             os.mkdir(extension)
+
+        # if os.path.isdir(extension):
+        #     pass
+        # else:
+        #     os.mkdir(extension)
+
         print("{}/{}".format(extension, filename))
         os.rename(filename, "{}/{}".format(extension, filename))
 
