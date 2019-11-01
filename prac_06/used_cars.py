@@ -23,11 +23,8 @@ def main():
 
     offroad = Car("offroad", 200)
 
-
     print(limo)
     print(offroad)
-
-
 
 
 main()

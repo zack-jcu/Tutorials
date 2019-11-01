@@ -3,6 +3,7 @@ import datetime
 CURRENT_YEAR = datetime.datetime.now().year
 VINTAGE_AGE = 50
 
+
 class Guitar:
     """This represents a guitar object"""
 
@@ -19,5 +20,3 @@ class Guitar:
 
     def is_vintage(self):
         return self.get_age() >= VINTAGE_AGE
-
-

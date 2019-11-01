@@ -11,21 +11,4 @@ def main():
     print(Car(name))
 
 
-
-
-
 main()
-
-#
-#     cars = []
-#     cars.append(Car("Rover", 100))
-#     cars.append(Car("Toyota", 50))
-#
-#     for car in cars:
-#         print("Name: {}, Fuel: {}L".format(car.name, car.fuel))
-#         car.fuel = refuel()
-#
-#
-# def refuel():
-#     fuel_to_add = 100
-#     car.fuel += fuel_to_add

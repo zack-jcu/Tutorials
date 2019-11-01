@@ -33,9 +33,9 @@ random_special = random.sample(SPECIAL, special)
 random_lower = random.sample(LOWER, lower)
 
 joined = random_upper + random_digits + random_special + random_lower
-# print(joined)
+print(joined)
 random.shuffle(joined)
-# print(joined)
+print(joined)
 # print(len(joined))
 print("Password: ", end='')
 for letter in joined:
